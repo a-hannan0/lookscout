@@ -1,0 +1,72 @@
+.navbar-custom {
+    background: #0f47d4;
+    height: 70px;
+}
+.logo{
+    margin-left: 15vh;
+    margin-right: 10vh;
+    width: 120px;
+    margin-top: 2px;
+}
+nav .navbar-nav li a{
+    color: white !important;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.btn{
+    margin-right: 85px;
+}
+.btn-first{
+    margin-right: 5px;
+}
+@media only screen and (max-width: 992px){
+    .navbar-nav, .d-flex{
+        position: relative;
+        right: 2%;
+        background: #496bc2;
+        width: 100%;
+    }
+    .d-flex{
+        position: relative;
+        top: -8px;
+    }
+    .navbar-nav{
+        margin-top: 23px;
+        height: 150px;
+    }
+    nav .navbar-nav li a{
+        color: white !important;
+        margin-left: 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .btn{
+        margin: 5px 5px;
+    }
+    .logo{
+        margin-left: 1vh;
+        width: 100px;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .navbar-nav, .d-flex{
+        position: relative;
+        right: 4%;
+        background: #496bc2;
+        width: 100%;
+    }
+}
+@media (max-width: 320px) { 
+    .navbar-nav, .d-flex{
+        position: relative;
+        right: 5%;
+        background: #496bc2;
+        width: 100%;
+    }
+}
+
+body{
+    background: black !important;
+}
