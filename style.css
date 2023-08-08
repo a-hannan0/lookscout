@@ -161,7 +161,7 @@ h1{
     margin-bottom: 5%;
 }
 .inner-testimonial{
-    width: 90%;
+    width: 70%;
     background-color: rgba(128, 128, 128, 0.107);
     margin: 3% auto;
 }
@@ -188,7 +188,7 @@ h1{
     font-size: 0.7rem !important;
 }
 .card{
-    width: 10%;
+    width: 14%;
     margin: 0 auto;
     background-color: transparent !important;
     border: none !important;
@@ -202,6 +202,59 @@ h1{
 .logo-container{
     margin-left: 48%;
     padding-top: 0.5%;
+}
+.blog-section{
+    margin-top: 6%;
+    width: 100%;
+}
+.blog-card{
+    margin-bottom: 5%;
+}
+.blog-top{
+    width: 45%;
+    margin: 0 auto;
+}
+.blog-cards{
+    width: 70%;
+    margin: 3% auto;
+}
+.blog-image{
+    width: 100%;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.card-description{
+    color: #00000096;
+    font-size: 0.9rem;
+}
+.card-second-section{
+    margin-top: 5%;
+}
+.third-section{
+    width: 100%;
+}
+.person-icon{
+    width: 85%;
+}
+.person-name{
+    font-size: 0.8rem;
+    position: relative;
+    right: 6%;
+}
+.person-designation{
+    color: #00000083;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 11%;
+    right: 6%;
+}
+.blog-date{
+    color: #0000006f;
+    font-size: 0.8rem;
+    font-weight: 650;
+    padding-top: 12%;
 }
 @media only screen and (max-width: 1200px){
     .img-sec-two{
@@ -317,6 +370,18 @@ h1{
     .flex-row, .flex-column{
         background-color: rgba(128, 128, 128, 0);
     }
+    .blog-top{
+        width: 80%;
+    }
+    .blog-section .msg-statement{
+        text-align: center;
+    }
+    .inner-testimonial{
+        width: 90%;
+    }
+    .blog-card-tab{
+        display: none;
+    }
 }
 
 body{
@@ -385,6 +450,12 @@ body{
     }
     .flex-row, .flex-column{
         background-color: rgba(128, 128, 128, 0);
+    }
+    .blog-card-tab{
+        display: block;
+    }
+    .third-section{
+        margin-left: 2%;
     }
 }
 @media (max-width: 320px) { 
