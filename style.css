@@ -147,6 +147,19 @@ h1{
 .resp-image{
     display: none;
 }
+.dark-container{
+    background-color: #000000;
+    color: #ffffff;
+}
+.dark-container .product-paragraph{
+    color: #ffffff96;
+}
+.dark-desk-image{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 @media only screen and (max-width: 1200px){
     .img-sec-two{
         width: 52.5%;
@@ -160,6 +173,8 @@ h1{
     .resp-image{
         display: block;
         margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .desk-image{
         display: none;
