@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Lookscout</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-        <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#"><img src="Pictures/Lookscout.png" alt=""></a> -->
+        <div class="container-fluid my-container">
           <img class = "logo" src="Pictures/Company Logo.png" alt="">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,8 +49,8 @@
       </nav>
 
       <!---   Main Section   --->
-      <div class="main-section">
-        <div class="row">
+      <div class="main-section my-container">
+        <div class="row main-row">
             <!-- First Column -->
             <div class="col-sm-12 col-lg-12 col-md-12 col-xl-6 order-xl-2">
                 <div class="second-main-section">
@@ -57,36 +59,55 @@
                 </div>
             </div>
             <!--  Second Column -->
-            <div class="col-sm-12 col-lg-12 col-md-12 col-xl-6 order-xl-1">
+            <div class="col-sm-12 col-lg-12 col-md-12 col-xl-6 order-xl-1 main-text-portion">
                 <div class="Column column-main-one">
-                    <div class="row padding-top-col-main-one-others">
-                        <h1>Your Supercharged Design Flow</h1>
+                    <div class="padding-top-col-main-one-others">
+                        <h1>Your Supercharged Design Workflow</h1>
                     </div>
-                    <div class="row padding-top-col-main-one">
+                    <div class="padding-top-col-main-one">
                         <p class = "main-p">We've been told it is not possible to overacheive our customers' expectations. We have not reinvented the wheel,
                              we decided to build upon it. 
                         </p>
                     </div>
-                    <div class="row padding-top-col-main-one">
+                    <div class = "main-btn-one">
                         <button class="btn btn-primary main-button" type="submit">Get started</button>
                     </div>
-                    <div class="row padding-top-col-main-one-others last-element">
-                        <img src="Pictures/Text input container.png" alt="">
-                    </div>
                 </div>
+                <div class="last-element">
+                  <!-- <img src="Pictures/Text input container.png" alt=""> -->
+                  <p class="last-elem-p">
+                      Who supports us ?
+                  </p>
+                  <div class="img-main-section">
+                    <div class="row social-icons">
+                      <div class="Column col-6 col-sm-3">
+                        <img src="Pictures/git.png" alt="" class="first-soc-icons">
+                      </div>
+                      <div class="Column col-6 col-sm-3">
+                        <img src="Pictures/slackkk.png" alt="" class="first-soc-icons">
+                      </div>
+                      <div class="Column col-6 col-sm-3">
+                        <img src="Pictures/netflix.png" alt="" class="first-soc-icons">
+                      </div>
+                      <div class="Column col-6 col-sm-3">
+                        <img src="Pictures/paypal.png" alt="" class="first-soc-icons">
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
         </div>
       </div>
 
-      <!-- Messaging Container -->
-      <div class="messageContainer">
-        <p class = "messageHeading"> Messaging for all </p>
+      <div class="message-container my-container">
+      <div class="">
+        <p class = "messageHeading message-Head-One"> Messaging for all </p>
         <p class="msg-statement">Use generated content in real-time will have multiple touchpoints for offshoring.</p>
         <div class="messaging-card-container">
             <div class="row messaging-cards">
                 <div class="Column col-sm-12 col-md-6 col-lg-4 col-xl-4 message-card">
                     <img class = "messageIcons" src="Pictures/Icon placeholder.png" alt="">
-                    <p class="message-heading">Easier Work Organization</p>
+                    <p class="message-heading msg-sub-heading">Easier Work Organization</p>
                     <p class="message-paragraph">Efficiently unleash cross-media information without cross-media value.
                         Quickly timely deliverables for real-time schemas.
                     </p>
@@ -137,17 +158,18 @@
             </div>
         </div>
       </div>
-
+    </div>
+    
       <!-- Product Featuring Section -->
       
-      <div class="messageContainer">
-        <p class = "messageHeading"> Redefining Product Features </p>
+      <div class="my-container">
+        <p class = "messageHeading message-Head-One"> Redefining Product Features </p>
         <p class="msg-statement">Keeping your eye on the ball while performing a deep dive on the start-up mentality to  derive convergence on cross-platform integration.          
         </p>
 
         <div class="product-feature-container">
           <div class="row product-container">
-               <div class="Column col-sm-12 col-md-12 col-lg-6 col-xl-6 order-lg-2">
+               <div class="Column col-12 col-md-12 col-lg-6 col-xl-6 order-lg-2">
                 <img src="Pictures/Photo.png" alt="" class="left-image desk-image">
                 <img src="Pictures/resp.png" alt="" class="left-image resp-image">
               </div>
@@ -191,11 +213,10 @@
             </div>
           </div>
         </div>
-
         <!-- Product Featuring Dark Mode Section -->
       
       <div class="messageContainer">
-        <div class="product-feature-container dark-container">
+        <div class="product-feature-container dark-container my-container">
           <div class="row product-container">
                <div class="Column col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <img src="Pictures/resp.png" alt="" class="left-image desk-image dark-desk-image">
@@ -241,11 +262,10 @@
             </div>
           </div>
         </div>
-
-
+     
 
         <!-- Testimonial Section -->
-        <div class="testimonial-section">
+        <div class="my-container">
           <div class="customer-heading-mbl">
             <p class = "messageHeading"> What Our Customer Says </p>
             <p class="msg-statement">Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win strategies to ensure domination.</p>
@@ -260,26 +280,29 @@
                 Thank you for making it painless, pleasant and most of all hassle free! I love LookScout. I can't say enough about LookScout. Great job, I will definitely be ordering again!
               </h5>
             </div>
-            <div class="card p-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <div class="d-flex flex-row align-items-center">
-                <img src="Pictures/Ceo.png" width="50" class="rounded-circle ceo-image">
-                <div class="d-flex flex-column ml-2 ceo-details title-flex-box">
-                  <span class="font-weight-normal ceo-name">Lisa smith</span>
-                  <span class = "ceo-designation">Ceo Company</span>
-                  
+            <div class="user-card">
+              <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="d-flex flex-row align-items-center">
+                  <img src="Pictures/Ceo.png" width="50" class="rounded-circle ceo-image">
+                  <div class="d-flex flex-column ml-2 ceo-details title-flex-box">
+                    <span class="font-weight-normal ceo-name">Lisa smith</span>
+                    <span class = "ceo-designation">Ceo Company</span>
+                    
+                  </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
         <!-- Blog Post -->
         <div class="blog-section">
           <div class="blog-top">
-            <p class = "messageHeading"> Latest Blog Posts </p>
+            <p class = "messageHeading message-Head-One"> Latest Blog Posts </p>
             <p class="msg-statement">Completely synergize resource taxing relationships via premier niche markets. Professionally  cultivate one-to-one customer service with robust ideas.</p>
           </div>
 
-          <div class="blog-cards">
+          <div class="blog-cards my-container">
             <div class="row">
               <div class="Column col-sm-12 col-md-6 col-lg-4 col-xl-4 blog-card">
                   <div class="blog-image-section">
@@ -293,13 +316,15 @@
                       Podcasting operational management inside of workflows to establish a framework seamless.Convergence collaboratively.
                     </p>
                   </div>
-                  <div class="third-section d-flex flex-row">
-                    <div class="p-2">
-                      <img src="Pictures/Andrew.png" alt="" class="person-icon">
-                    </div>
-                    <div class="p-2 flex-grow-1 fl-second"> 
-                      <h6 class = "person-name">Andrew Miller</h6>
-                      <p class="person-designation">CEO</p>
+                  <div class="third-section d-flex flex-row justify-content-between">
+                    <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <div class="d-flex flex-row align-items-center">
+                        <img src="Pictures/Andrew.png" width="50" class="rounded-circle ceo-image">
+                        <div class="d-flex flex-column ml-2 ceo-details title-flex-box">
+                          <span class="font-weight-normal ceo-name">Andrew Miller</span>
+                          <span class = "ceo-designation">CEO</span>
+                        </div>
+                      </div>
                     </div>
                     <div class="p-2">
                       <p class="blog-date">
@@ -320,13 +345,29 @@
                     Keeping your eye while performing a deep dive on the start-up mentality to derive convergence collaboratively.
                   </p>
                 </div>
-                <div class="third-section d-flex flex-row">
+                <!--<div class="third-section d-flex flex-row">
                   <div class="p-2">
                     <img src="Pictures/David.png" alt="" class="person-icon">
                   </div>
                   <div class="p-2 flex-grow-1 fl-second"> 
                     <h6 class = "person-name">David Munsan</h6>
                     <p class="person-designation">CEO</p>
+                  </div>
+                  <div class="p-2">
+                    <p class="blog-date">
+                      25 Apr
+                    </p>
+                  </div>
+                </div>-->
+                <div class="third-section d-flex flex-row justify-content-between">
+                  <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="d-flex flex-row align-items-center">
+                      <img src="Pictures/David.png" width="50" class="rounded-circle ceo-image">
+                      <div class="d-flex flex-column ml-2 ceo-details title-flex-box">
+                        <span class="font-weight-normal ceo-name">David Munsan</span>
+                        <span class = "ceo-designation">CEO</span>
+                      </div>
+                    </div>
                   </div>
                   <div class="p-2">
                     <p class="blog-date">
@@ -347,13 +388,15 @@
                     Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C .
                   </p>
                 </div>
-                <div class="third-section d-flex flex-row">
-                  <div class="p-2">
-                    <img src="Pictures/Meller.png" alt="" class="person-icon">
-                  </div>
-                  <div class="p-2 flex-grow-1 fl-second"> 
-                    <h6 class = "person-name">Andrew Meller</h6>
-                    <p class="person-designation">CEO</p>
+                <div class="third-section d-flex flex-row justify-content-between">
+                  <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="d-flex flex-row align-items-center">
+                      <img src="Pictures/Meller.png" width="50" class="rounded-circle ceo-image">
+                      <div class="d-flex flex-column ml-2 ceo-details title-flex-box">
+                        <span class="font-weight-normal ceo-name">Andrew Meller</span>
+                        <span class = "ceo-designation">CEO</span>
+                      </div>
+                    </div>
                   </div>
                   <div class="p-2">
                     <p class="blog-date">
@@ -364,8 +407,196 @@
               </div>
             </div>
           </div>
+      
+        <!-- Call To Action -->
+        <div class="callToAction-section">
+          <div class="callToAction-top">
+            <p class = "messageHeading message-Head-One">Proud to Be Used By </p>
+            <p class="msg-statement">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+          </div>
+          <div class="callToAction-image-container my-container">
+          <div class="row">
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Press Logo.png" alt="" class="image-action img-fluid">
+            </div>
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Slack.png" alt="" class="image-action img-fluid">
+            </div>
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Company Logo (1).png" alt="" class="image-action img-fluid">
+            </div>
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Company Logo (2).png" alt="" class="image-action img-fluid"> 
+            </div>
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Company Logo (3).png" alt="" class="image-action img-fluid">
+            </div>
+            <div class="Column col-sm-12 col-md-3 col-lg-2 col-xl-2 call-img text-center">
+              <img src="Pictures/Company Logo (4).png" alt="" class="image-action img-fluid">
+            </div>
+          </div>
+          </div>
         </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
 
+        <div class="my-container">
+          <div class="callToAction-top">
+            <p class="blue-text">1% OF THE INDUSTRY</p>
+            <p class = "messageHeading"> Welcome to your new digital reality that will rock your world truly at all throughout. </p>
+          </div>
+
+          <div class="input-group inp-email">
+            <input type="text" class="form-control inp-desk" placeholder="Enter your email">
+            <span class="input-group-btn inp-desk">
+              <button class="btn btn-default btn-primary" type="button"> Submit </button>
+            </span>
+            <div class="child-inp">
+              <div>
+                <input type="email" class="form-control inp-mbl"placeholder="Your e-mail">
+              </div>
+              <div class = "mbl-btn-last">
+                <button class="btn btn-default btn-primary inp-mbl" type="button"> Submit </button>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+
+          <div class="row check-container">
+            <div class="Column col-sm-6 col-md-4 col-xl-4 check-section">
+              <div class="checkbox rounded-circle">
+                <input class="chkPrimary" type="checkbox" checked />
+                <label class="blue-text check-text"> Fully Secure </label>
+            </div>
+            </div>
+            <div class="Column col-md-4 col-xl-4">
+              <div class="checkbox checkbox-primary">
+                <input class="chkPrimary" type="checkbox" checked />
+                <label class="blue-text check-text">24/7 support</label>
+            </div>
+            </div>
+            <div class="Column col-sm-12 col-md-4 col-xl-4">
+              <div class="checkbox checkbox-primary">
+                <input class="chkPrimary" type="checkbox" checked />
+                <label class="blue-text check-text">Done Deal</label>
+            </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+        <div class="my-container footer-sec">
+          <div class="row justify-content-between">
+            <div class="Column col-12 col-md-6 col-lg-3 order-lg-1 ftr-sec-com">
+              <img src="Pictures/Footer Logo.png" alt="" class="footer-logo">
+              <p class="footer-text">
+                Generate outside the box thinking with the possibility to target the low.
+              </p>
+            </div>
+            <div class="Column col-6 col-lg-3 order-md-3 order-sm-2 order-lg-2 ftr-sec-com">
+              <div class="ftr-txt-cols head-ftr-sec">
+                <p class="ftr-text-sec ftr-head">
+                  Resources
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Community
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Events
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Help Center
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-se">
+                  Partners
+                </p>
+              </div>
+            </div>
+            <div class="Column col-6 col-lg-3 order-md-4 order-sm-3 order-lg-3 ftr-sec-com">
+              <div class="ftr-txt-cols head-ftr-sec">
+                <p class="ftr-text-sec ftr-head">
+                  Products
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Integrations
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Solutions
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-sec">
+                  Features
+                </p>
+              </div>
+              <div class="ftr-txt-cols">
+                <p class="ftr-text-se">
+                  Enterprise
+                </p>
+              </div>
+            </div>
+            <div class="Column col-12 col-md-6 col-lg-3 order-md-2 order-sm-4 order-lg-4 ftr-sec-com">
+              <div class="ftr-txt-cols head-ftr-sec">
+                <p class="ftr-text-sec ftr-head">
+                  Get Email Notifications
+                </p>
+                <p class="footer-text">
+                  Generate outside the box thinking with the possibility to targtet the low
+                </p>
+              </div>
+              <div class="input-group">
+                <input type="text" class="form-control ftr-input" placeholder="Enter your email">
+                <span class="input-group-btn">
+                  <button class="btn btn-default btn-primary" type="button"> Submit </button>
+                </span> 
+            </div>
+            
+          </div>
+          
+          
+          </div>
+          
+          <div class="row">
+            <hr>
+            <div class="social-ftr">
+              <p class="ftr-txt-cols">
+                © 2023 Lookscout. All Rights Reserved.
+              </p>
+              <div class="social-ftr-icons ">
+                <!--col-sm-3 col-md-3 col-lg-3-->
+                  <div class=" ">
+                    <img src="Pictures/Social platforms logo.png" alt="" class="soc-icons">
+                  </div>
+                  <div class="">
+                    <img src="Pictures/Text input.png" alt="" class="soc-icons">
+                  </div>
+                  <div class="">
+                    <img src="Pictures/Logo.png" alt="" class="soc-icons">
+                  </div>
+                  <div class="">
+                    <img src="Pictures/Text input (1).png" alt="" class="soc-icons">
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+        
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
