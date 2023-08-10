@@ -170,7 +170,7 @@ h1{
 }
 
 .product-paragraph, .product-link{
-    margin-left: 10%;
+    margin-left: 8.5%;
     position: relative;
     bottom: 15%;
 }
@@ -591,7 +591,7 @@ hr{
 }
 @media only screen and (max-width: 800px){
     .product-paragraph, .product-link{
-        margin-left: 7%;
+        margin-left: 7.5%;
     }
 }
 @media only screen and (max-width: 768px){
@@ -779,6 +779,9 @@ hr{
     .check-container{
         margin-left: 35%;
     }
+    .message-heading {
+        font-size: 19px;
+    }
     .img-sec-two {
         right: -18%;
         width: 68%;
@@ -821,3 +824,4 @@ hr{
         background-color: rgba(128, 128, 128, 0);
     }
 }
+
