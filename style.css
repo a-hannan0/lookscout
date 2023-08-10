@@ -418,7 +418,18 @@ hr{
 .desk-image {
     width: 100%;
 }
-
+@media only screen and (max-width: 1920px){
+    .img-sec-two {
+        right: -19.5%;
+        width: 64%;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .img-sec-two {
+        right: -20.7%;
+        width: 78%;
+    }
+}
 @media only screen and (max-width: 1200px){
     .img-sec-two{
         width: 47.5%;
